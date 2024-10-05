@@ -4,7 +4,7 @@
   "description": "My personal website",
   "scripts": {
     "dev": "bundle exec jekyll serve",
-    "build": "jekyll build"
+    "push": "jekyll build && surge --domain kyteidev.surge.sh _site/"
   },
   "author": "kyteidev",
   "license": "MIT",

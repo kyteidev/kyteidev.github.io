@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "My personal website",
   "scripts": {
-    "dev": "bundle exec jekyll serve"
+    "dev": "bundle exec jekyll serve",
+    "build": "jekyll build"
   },
   "author": "kyteidev",
   "license": "MIT",

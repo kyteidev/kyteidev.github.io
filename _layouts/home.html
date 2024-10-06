@@ -8,19 +8,23 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body class="w-screen h-screen overflow-x-hidden">
-    <header class="h-16 bg-transparent w-full fixed flex items-center px-4">
-        <div class="ml-auto">
-            <a class="text-xl" href="https://github.com/kyteidev/">Github</a>
-        </div>
-    </header>
-        <div class="main bg-base-100 w-full h-screen p-64" style="padding-left: clamp(150px, 20vw, 360px);">
+      <header class="h-16 bg-transparent w-full fixed text-xl flex items-center px-4">
+          <a href="{{ site.baseurl }}/">Home</a>
+          <div class="ml-auto space-x-4">
+              <a href="https://github.com/kyteidev/">Github</a>
+              <a href="{{ site.baseurl }}/portfolio/">Portfolio</a>
+          </div>
+      </header>
+    <div class="content" style="padding-left: clamp(150px, 20vw, 360px); padding-right: clamp(150px, 20vw, 360px);">
+        <div class="intro-section bg-base-100 w-full min-h-screen max-h-screen h-screen py-80 px-0">
             <div class="intro-wrapper items-center flex">
                 <div class="intro space-y-5">
-                    <h1 class="text-8xl" style="margin-right: clamp(160px, 256px, 256px);">Hi, I'm kyteidev</h1>
-                    <h2 class="text-4xl max-w-xl leading-tight tracking-wide opacity-60">an indie software and game dev</h2>
+                    <h1 class="text-8xl" style="margin-right: clamp(160px, 256px, 256px);">Hi, I'm kyteidev,</h1>
+                    <h2 class="text-4xl max-w-xl leading-tight tracking-wide opacity-60">an indie software and game developer</h2>
                 </div>
                 <img src="../assets/pfp.png" class="rounded-full object-cover" style="width: clamp(180px, 250px, 400px); height: clamp(180px, 250px, 400px);"/>
             </div>
+        </div>
     </div>
     <footer class="h-12 w-full flex flex-col space-y-1 justify-center items-center text-xs p-5">
         <p class="text-center">Copyright © 2024 <a href="https://github.com/kyteidev/">kyteidev</a>. Made with ❤️</p>

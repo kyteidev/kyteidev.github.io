@@ -1,0 +1,18 @@
+{
+  "name": "kyteidev-site",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "scripts": {
+    "dev": "bundle exec jekyll serve",
+    "push": "jekyll build && surge --domain kyteidev.surge.sh _site/"
+  },
+  "author": "kyteidev",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.12.10",
+    "postcss": "^8.4.39",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.6"
+  }
+}

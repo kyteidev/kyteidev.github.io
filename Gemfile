@@ -8,3 +8,6 @@ gem "jekyll"
 group :jekyll_plugins do
  gem 'jekyll-postcss-v2'
 end
+
+gem "csv"
+gem "base64"

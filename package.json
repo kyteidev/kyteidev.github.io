@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "My personal website",
   "scripts": {
-    "dev": "bundle exec jekyll serve",
-    "push": "jekyll build && surge --domain kyteidev.surge.sh _site/"
+    "dev": "bundle exec jekyll serve"
   },
   "author": "kyteidev",
   "license": "MIT",

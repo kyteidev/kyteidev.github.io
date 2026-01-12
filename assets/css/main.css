@@ -1,9 +1,12 @@
 ---
 ---
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: false;
+}
+
+@plugin "./catppuccinTheme.mocha.mts";
 
 * {
     font-family: "Varela Round", sans-serif;

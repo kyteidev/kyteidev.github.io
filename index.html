@@ -3,31 +3,43 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>kyteidev</title>
+    <title>kytei</title>
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
   </head>
   <body class="w-screen h-screen overflow-x-hidden">
-      <header class="h-16 bg-transparent w-full fixed text-xl flex items-center px-4">
-          <a class="hover:opacity-80" href="/">Home</a>
-          <div class="ml-auto space-x-4">
-              <a class="hover:opacity-80" href="https://github.com/kyteidev/">Github</a>
-              <a class="hover:opacity-80" href="/portfolio/">Portfolio</a>
-          </div>
-      </header>
-    <div class="content" style="padding-left: clamp(150px, 20vw, 360px); padding-right: clamp(150px, 20vw, 360px);">
-        <div class="intro-section bg-base-100 w-full min-h-screen max-h-screen h-screen py-80 px-0">
-            <div class="intro-wrapper items-center flex">
-                <div class="intro space-y-5">
-                    <h1 class="text-8xl" style="margin-right: clamp(160px, 256px, 256px);">Hi, I'm kyteidev,</h1>
-                    <h2 class="text-4xl max-w-xl leading-tight tracking-wide opacity-60">an indie software and game developer</h2>
-                </div>
-                <img src="../assets/pfp.png" class="rounded-full object-cover" style="width: clamp(180px, 250px, 400px); height: clamp(180px, 250px, 400px);"/>
-            </div>
-        </div>
+    <div class="content">
+	    <div class="intro-section bg-base-100 w-full h-screen flex items-center justify-center px-0">
+	        <div class="intro-wrapper items-center flex space-x-16">
+	            <div class="intro space-y-8 max-w-xl">
+					<div class="intro-text space-y-4">
+						<h1 class="text-8xl mr-auto">
+				          	hello, i'm kytei.
+				      	</h1>
+				      	<h2 class="text-4xl max-w-xl leading-tight tracking-wide opacity-60">
+				            i'm a software dev and gamer,
+							living in europe
+				      	</h2>
+					</div>
+					<div class="flex space-x-4">
+						<a class="btn btn-square btn-primary btn-md" href="https://github.com/kyteidev">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+						</a>
+						<a class="btn btn-square btn-primary btn-md" href="https://bsky.app/profile/kytei.bsky.social">
+							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bluesky"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.335 5.144c-1.654 -1.199 -4.335 -2.127 -4.335 .826c0 .59 .35 4.953 .556 5.661c.713 2.463 3.13 2.75 5.444 2.369c-4.045 .665 -4.889 3.208 -2.667 5.41c1.03 1.018 1.913 1.59 2.667 1.59c2 0 3.134 -2.769 3.5 -3.5c.333 -.667 .5 -1.167 .5 -1.5c0 .333 .167 .833 .5 1.5c.366 .731 1.5 3.5 3.5 3.5c.754 0 1.637 -.571 2.667 -1.59c2.222 -2.203 1.378 -4.746 -2.667 -5.41c2.314 .38 4.73 .094 5.444 -2.369c.206 -.708 .556 -5.072 .556 -5.661c0 -2.953 -2.68 -2.025 -4.335 -.826c-2.293 1.662 -4.76 5.048 -5.665 6.856c-.905 -1.808 -3.372 -5.194 -5.665 -6.856" /></svg>
+						</a>
+					</div>
+	            </div>
+				<div class="avatar">
+				  	<div class="ring-primary ring-offset-base-100 w-64 rounded-full ring-4 ring-offset-4">
+				    	<img src="../assets/pfp.png"/>
+					</div>
+				</div>
+	        </div>
+	    </div>
     </div>
-    <footer class="h-12 w-full flex flex-col space-y-1 justify-center items-center text-xs p-5">
-        <p class="text-center">Copyright © 2025 <a href="https://github.com/kyteidev/">kyteidev</a>. Made with ❤️</p>
-    </footer>
   </body>
 </html>

@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "description": "My personal website",
   "scripts": {
-    "dev": "bundle exec jekyll serve",
-    "push": "jekyll build && surge --domain kyteidev.surge.sh _site/"
+    "dev": "bundle exec jekyll serve"
   },
   "author": "kyteidev",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "daisyui": "^4.12.10",
-    "postcss": "^8.4.39",
-    "postcss-cli": "^11.0.0",
-    "tailwindcss": "^3.4.6"
+    "@catppuccin/daisyui": "^2.1.1",
+    "@tailwindcss/postcss": "^4.1.18",
+    "autoprefixer": "^10.4.23",
+    "daisyui": "^5.5.14",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.18"
   }
 }
